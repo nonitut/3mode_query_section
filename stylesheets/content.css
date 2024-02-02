@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+  font-family: "CarlaSansLight";
+  src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+
+
+.boxes{
+    width: 100px;
+    height: 100px;
+    background: darkolivegreen;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.boxes:hover{
+    border-radius: 50px;
+    background: rgb(129, 80, 229);
+    color: chartreuse;
+}
+
+.auto{ cursor: auto;}
+.default{ cursor: default ;}
+.none{ cursor: none;}
+.context-menu{ cursor: context-menu; }
+.help{ cursor: help;}
+.pointer{ cursor: pointer;}
+.progress{ cursor: progress;}
+.wait{ cursor: wait;}
+.cell{ cursor: cell;}
+.crosshair{ cursor: crosshair;}
+.tet{ cursor: text;}
+.vertical-text{cursor: vertical-text ; }
+.alias{ cursor: alias;}
+.copy{ cursor: copy;}
+.move{ cursor: move;}
+.no-drop{ cursor: no-drop;}
+.not-allowed{ cursor: not-allowed;}
+.all-scroll{ cursor: all-scroll;}
+
+
+.sectionfirst{
+    display: flex;
+    width: 100%;
+}
+.sectionsecond{
+height: 800px;
+display: none;
+}
+.sectionthird{
+    display: none;
+}
+
+.newstory{
+position: fixed;
+top: 200px;
+left: 0;
+height: 300px;
+width: 100%;
+background: url('https://images.theconversation.com/files/283650/original/file-20190711-173325-1oj4n2t.jpg') center;
+background-size: cover ;
+}
+
+button{
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background: rgb(224, 226, 246);
+    color: hotpink ;
+    cursor: pointer ;
+    border: 0px;
+}
+button:hover{
+    background: rgb(224, 236, 255);
+}
+.wow{
+    display: none;
+}
+
+.sectionblock{
+    display: block;
+    width: 100%;
+}
+
+.sectionnone{
+    display: none;
+}
